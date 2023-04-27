@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <title>Sistema CRUD de Veículos</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Bem-vindo ao sistema de CRUD de veículos:</h1>
+        <div>
+            <p>No momento, o sistema tem <span id="total-veiculos">X</span> carros cadastrados</p>
+            <p>Escolha uma das opções para interagir com o sistema:</p>
+        </div>
+        <button onclick="cadastrarVeiculo()">Cadastrar veículo</button>
+        <button onclick="listarVeiculos()">Listar todos os veículos</button>
+        <button onclick="filtrarPorMarca()">Filtrar veículos por marca</button>
+        <button onclick="atualizarVeiculo()">Atualizar veículo</button>
+        <button onclick="removerVeiculo()">Remover veículo</button>
+        <button id="sair" onclick="sairDoSistema()">Sair do sistema</button>
+
+        <script src="script.js"></script>
+    </body>
+</html>
